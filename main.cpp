@@ -9,7 +9,7 @@ int main()
     char c;
     if(1)
     {
-    try
+    try //конкретно этот try не работате, не понял почему
         {
             if (typeid(a) == typeid(char) || typeid(b) == typeid(char))
             {
